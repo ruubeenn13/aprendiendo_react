@@ -1,0 +1,39 @@
+.dashboard-container {
+  width: 100%;
+  background-color: #fff;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  padding: 10px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.header-bar {
+  display: inline-block;
+  width: 5px;
+  height: 22px;
+  background-color: #1a3a4a;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+
+.installation-name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a3a4a;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.seccion-wrapper {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.tabla-wrapper {
+  border-bottom: 1px solid #e0e0e0;
+}
