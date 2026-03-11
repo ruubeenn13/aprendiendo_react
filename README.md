@@ -652,50 +652,81 @@ MIT License - Copyright (c) 2026 Rubén Juan
 
 ## 📈 Progreso General
 
-### React Journey - 30% Completado
+<div align="center">
+
+### 🚀 React Journey
 
 ```
-████████░░░░░░░░░░░░░░░░░░░░ 30%
+████████░░░░░░░░░░░░░░░░░░░░  30%
 ```
 
-| Métrica | Progreso |
-|---------|----------|
-| **Conceptos dominados** | 8/25 (32%) ⚛️ |
-| **Proyectos completados** | 3/10 (30%) 🚀 |
-| **Horas de práctica** | ~40h ⏱️ |
-| **Nivel actual** | Principiante+ 📚 |
+</div>
+
+| 📊 Métrica | 📈 Progreso |
+|:-----------|:------------|
+| **Conceptos dominados** | `8 / 25` ⚛️ |
+| **Proyectos completados** | `3 / 10` 🚀 |
+| **Horas de práctica** | `~40h` ⏱️ |
+| **Nivel actual** | `Principiante+` 📚 |
 
 ### Desglose por Áreas
 
+<table>
+<tr><td>
+
 **Fundamentos de React**
 ```
-████████████████████░ 95% ⚛️ Componentes, JSX, Props
+⚛️ 95% ████████████████████
 ```
+`Componentes, JSX, Props`
+
+</td></tr>
+<tr><td>
 
 **Hooks**
 ```
-████████░░░░░░░░░░░░ 40% 🪝 useState, useEffect básico
+🪝 40% ████████░░░░░░░░░░░░
 ```
+`useState, useEffect básico`
+
+</td></tr>
+<tr><td>
 
 **Routing & Navigation**
 ```
-░░░░░░░░░░░░░░░░░░░░  0% 🧭 Pendiente
+🧭  0% ░░░░░░░░░░░░░░░░░░░░
 ```
+`Pendiente`
+
+</td></tr>
+<tr><td>
 
 **Estado Global**
 ```
-░░░░░░░░░░░░░░░░░░░░  0% 🌐 Context, Redux pendiente
+🌐  0% ░░░░░░░░░░░░░░░░░░░░
 ```
+`Context, Redux pendiente`
+
+</td></tr>
+<tr><td>
 
 **APIs & Fetch**
 ```
-██░░░░░░░░░░░░░░░░░░ 10% 📡 En progreso
+📡 10% ██░░░░░░░░░░░░░░░░░░
 ```
+`En progreso`
+
+</td></tr>
+<tr><td>
 
 **Testing**
 ```
-░░░░░░░░░░░░░░░░░░░░  0% 🧪 Pendiente
+🧪  0% ░░░░░░░░░░░░░░░░░░░░
 ```
+`Pendiente`
+
+</td></tr>
+</table>
 
 ---
 
