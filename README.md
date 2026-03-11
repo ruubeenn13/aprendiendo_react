@@ -9,7 +9,7 @@
 
 **Mi viaje de aprendizaje en React desde cero**
 
-[📚 Proyectos](#-proyectos) • [🎯 Objetivos](#-objetivos-de-aprendizaje) • [🛠️ Tech Stack](#-tech-stack) • [📖 Recursos](#-recursos-útiles)
+[📚 Proyectos](#-proyectos) • [🎯 Objetivos](#-objetivos-de-aprendizaje) • [🛠️ Tech Stack](#️-tech-stack) • [📖 Recursos](#-recursos-útiles)
 
 </div>
 
@@ -31,19 +31,26 @@ Este repositorio documenta mi **proceso de aprendizaje en React**, desde los con
 - [x] Componentes funcionales
 - [x] JSX y sintaxis básica
 - [x] Props y composición de componentes
+- [x] Eventos básicos (onClick, onHover)
+- [x] Renderizado condicional
+- [x] Manejo de estado con useState
 
 ### 🔄 En Progreso
-- [ ] Hooks (useState, useEffect, useContext)
-- [ ] Manejo de eventos
-- [ ] Renderizado condicional
-- [ ] Listas y keys
-- [ ] Forms y validación
+- [ ] useEffect y ciclo de vida
+- [ ] Custom hooks
+- [ ] Context API
+- [ ] Forms y validación avanzada
 - [ ] React Router
-- [ ] Estado global (Context API / Redux)
-- [ ] Fetch y APIs
+- [ ] Fetch y APIs externas
 - [ ] Optimización y performance
-- [ ] Testing con Jest y React Testing Library
-- [ ] Deployment
+- [ ] Testing con Jest
+
+### 📝 Próximos Pasos
+- [ ] TypeScript con React
+- [ ] Estado global (Redux/Zustand)
+- [ ] Next.js
+- [ ] React Native
+- [ ] Deployment y CI/CD
 
 ---
 
@@ -52,74 +59,215 @@ Este repositorio documenta mi **proceso de aprendizaje en React**, desde los con
 ```
 aprendiendo_react/
 │
-├── 01-fundamentos/           # Conceptos básicos de React
-│   ├── componentes/          # Ejemplos de componentes
-│   ├── props/                # Trabajo con props
-│   └── jsx/                  # Sintaxis JSX
+├── pruebas/                      # 🧪 Ejercicios y prácticas
+│   └── projects/
+│       ├── 00-hola-mundo/        # Primer componente React
+│       ├── 01-tic-tac-toe/       # Juego del tres en raya
+│       └── 02-mouse-follower/    # Seguidor de cursor interactivo
 │
-├── 02-hooks/                 # Hooks de React
-│   ├── useState/             # State management
-│   ├── useEffect/            # Side effects
-│   └── custom-hooks/         # Custom hooks
+├── proyectos/                    # 🚀 Proyectos completos
+│   └── monitor-solar/            # Dashboard solar con datos reales
 │
-├── 03-routing/               # React Router
-│   └── navegacion-spa/       # Single Page Application
-│
-├── 04-estado-global/         # Gestión de estado
-│   ├── context-api/          # Context API
-│   └── redux/                # Redux Toolkit
-│
-├── 05-api-integration/       # Consumo de APIs
-│   ├── fetch/                # Fetch API
-│   └── axios/                # Axios
-│
-├── proyectos/                # 🚀 Proyectos completos
-│   ├── todo-app/             # Lista de tareas
-│   ├── weather-app/          # App del clima
-│   └── ecommerce/            # E-commerce básico
-│
-└── README.md                 # Este archivo
+├── package.json                  # Configuración del workspace
+└── README.md                     # Este archivo
 ```
 
 ---
 
 ## 🚀 Proyectos
 
-A medida que aprendo, iré construyendo proyectos para aplicar los conocimientos adquiridos.
+### 🧪 **Proyectos de Práctica** (`/pruebas/projects`)
 
-### 📋 Proyectos Planeados
+Ejercicios y mini-proyectos para practicar conceptos específicos.
 
-| Proyecto | Descripción | Conceptos | Estado |
-|----------|-------------|-----------|--------|
-| **Todo App** | Lista de tareas interactiva | State, Events, LocalStorage | 🔄 En progreso |
-| **Weather App** | Consulta del clima con API | Fetch, useEffect, APIs | 📝 Planeado |
-| **Pokedex** | Galería de pokémon | APIs, Routing, Cards | 📝 Planeado |
-| **E-commerce** | Tienda online básica | State Management, Router | 📝 Planeado |
-| **Blog** | Blog personal con admin | CRUD, Auth, Firebase | 📝 Planeado |
+| Proyecto | Descripción | Conceptos Clave | Estado |
+|----------|-------------|-----------------|--------|
+| **00-hola-mundo** | Mi primer componente React | JSX, Componentes | ✅ Completado |
+| **01-tic-tac-toe** | Juego del tres en raya (Ta-Te-Ti) | State, Props, Eventos, Lógica de juego | ✅ Completado |
+| **02-mouse-follower** | Círculo que sigue el cursor del mouse | useEffect, Event Listeners, Cleanup | ✅ Completado |
 
-> 🔔 **Esta sección se actualizará** conforme complete nuevos proyectos
+---
+
+### 🎯 **Proyectos Reales** (`/proyectos`)
+
+Aplicaciones completas con funcionalidad real.
+
+#### 📊 **Monitor Solar**
+<table>
+  <tr>
+    <td width="60%">
+      <h4>Descripción</h4>
+      <p>Dashboard interactivo para monitorizar datos de paneles solares en tiempo real. Incluye gráficos de producción, estadísticas y alertas.</p>
+      <h4>🎯 Conceptos Aplicados</h4>
+      <ul>
+        <li>✅ Componentes funcionales y composición</li>
+        <li>✅ Props drilling y datos jerárquicos</li>
+        <li>✅ useState para gestión de estado local</li>
+        <li>✅ Renderizado condicional</li>
+        <li>✅ Estilos CSS modulares</li>
+        <li>🔄 Fetch de APIs (próximamente)</li>
+        <li>🔄 Charts y visualización de datos</li>
+      </ul>
+    </td>
+    <td width="40%">
+      <h4>📦 Tech Stack</h4>
+      <pre>
+React 18
+Vite
+CSS Modules
+      </pre>
+      <h4>🚀 Demo</h4>
+      <code>
+cd proyectos/monitor-solar
+npm install
+npm run dev
+      </code>
+      <h4>📸 Preview</h4>
+      <em>Screenshot próximamente</em>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Tecnologías Principales
-- **React** 18+ - Librería principal
-- **Vite** - Build tool y dev server
-- **JavaScript ES6+** - Lenguaje de programación
+### Core
+| Tecnología | Versión | Uso |
+|------------|---------|-----|
+| **React** | 18+ | Librería principal UI |
+| **Vite** | 5+ | Build tool y dev server |
+| **JavaScript** | ES6+ | Lenguaje de programación |
+| **CSS3** | - | Estilos y diseño |
 
 ### Herramientas de Desarrollo
-- **VS Code** - Editor de código
-- **ESLint** - Linter para calidad de código
-- **Prettier** - Formateador de código
-- **Git & GitHub** - Control de versiones
+| Herramienta | Propósito |
+|-------------|-----------|
+| **VS Code** | Editor de código |
+| **ESLint** | Linter para calidad de código |
+| **Git & GitHub** | Control de versiones |
+| **npm** | Gestor de paquetes |
 
-### Librerías Adicionales (según proyecto)
-- **React Router** - Navegación SPA
-- **Axios** - Cliente HTTP
-- **Styled Components** / **Tailwind CSS** - Estilos
-- **React Hook Form** - Manejo de formularios
-- **Jest** - Testing
+### Librerías Futuras
+- [ ] **React Router** - Navegación SPA
+- [ ] **Axios** / **TanStack Query** - Fetch de datos
+- [ ] **Tailwind CSS** - Framework de estilos
+- [ ] **Framer Motion** - Animaciones
+- [ ] **React Hook Form** - Formularios
+- [ ] **Vitest** - Testing
+
+---
+
+## 🎓 Conceptos Aprendidos
+
+### 🔹 Componentes
+```jsx
+// Componente funcional básico
+function Saludo({ nombre }) {
+  return <h1>¡Hola, {nombre}!</h1>;
+}
+
+// Composición
+function App() {
+  return (
+    <div>
+      <Saludo nombre="Rubén" />
+      <Saludo nombre="React" />
+    </div>
+  );
+}
+```
+
+### 🔹 Estado con useState
+```jsx
+import { useState } from 'react';
+
+function Contador() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>Contador: {count}</p>
+      <button onClick={() => setCount(count + 1)}>
+        Incrementar
+      </button>
+    </div>
+  );
+}
+```
+
+### 🔹 Eventos
+```jsx
+function Boton() {
+  const handleClick = () => {
+    console.log('¡Click!');
+  };
+
+  return <button onClick={handleClick}>Púlsame</button>;
+}
+```
+
+### 🔹 Renderizado Condicional
+```jsx
+function Mensaje({ isLoggedIn }) {
+  return (
+    <div>
+      {isLoggedIn ? (
+        <p>Bienvenido de vuelta</p>
+      ) : (
+        <p>Por favor, inicia sesión</p>
+      )}
+    </div>
+  );
+}
+```
+
+### 🔹 Listas y Keys
+```jsx
+function ListaTareas({ tareas }) {
+  return (
+    <ul>
+      {tareas.map((tarea) => (
+        <li key={tarea.id}>{tarea.texto}</li>
+      ))}
+    </ul>
+  );
+}
+```
+
+### 🔹 useEffect (Mouse Follower)
+```jsx
+import { useState, useEffect } from 'react';
+
+function MouseFollower() {
+  const [position, setPosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleMove = (event) => {
+      setPosition({ x: event.clientX, y: event.clientY });
+    };
+
+    window.addEventListener('mousemove', handleMove);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('mousemove', handleMove);
+    };
+  }, []);
+
+  return (
+    <div
+      style={{
+        position: 'absolute',
+        left: position.x,
+        top: position.y,
+      }}
+    >
+      🎯
+    </div>
+  );
+}
+```
 
 ---
 
@@ -127,8 +275,8 @@ A medida que aprendo, iré construyendo proyectos para aplicar los conocimientos
 
 ### Prerequisitos
 ```bash
-node --version  # >= 16.x
-npm --version   # >= 8.x
+node --version  # >= 18.x
+npm --version   # >= 9.x
 ```
 
 ### Clonar el Repositorio
@@ -138,166 +286,112 @@ cd aprendiendo_react
 ```
 
 ### Ejecutar un Proyecto
+
+#### Opción 1: Proyectos de Práctica
 ```bash
-# Navegar al proyecto específico
-cd proyectos/todo-app
-
-# Instalar dependencias
+cd pruebas/projects/01-tic-tac-toe
 npm install
-
-# Iniciar servidor de desarrollo
 npm run dev
+# Abrir http://localhost:5173
+```
 
-# Abrir en el navegador: http://localhost:5173
+#### Opción 2: Proyectos Reales
+```bash
+cd proyectos/monitor-solar
+npm install
+npm run dev
+# Abrir http://localhost:5173
 ```
 
 ---
 
 ## 📚 Recursos Útiles
 
-### Documentación Oficial
-- [React Docs](https://react.dev/) - Documentación oficial de React
+### 📖 Documentación Oficial
+- [React.dev](https://react.dev/) - Nueva documentación oficial
 - [Vite Guide](https://vitejs.dev/) - Guía de Vite
+- [MDN Web Docs](https://developer.mozilla.org/) - Referencia de JavaScript
 
-### Tutoriales y Cursos
+### 🎓 Cursos y Tutoriales
 - [React Official Tutorial](https://react.dev/learn) - Tutorial interactivo oficial
 - [FreeCodeCamp React](https://www.freecodecamp.org/learn/front-end-development-libraries/#react) - Curso gratuito
-- [Scrimba React](https://scrimba.com/learn/learnreact) - Curso interactivo
+- [Midudev - Aprendiendo React](https://www.youtube.com/@midudev) - Tutoriales en español
+- [JavaScript.info](https://javascript.info/) - Fundamentos de JS
 
-### Blogs y Artículos
-- [Overreacted](https://overreacted.io/) - Blog de Dan Abramov
-- [Kent C. Dodds](https://kentcdodds.com/blog) - Artículos avanzados
+### 🌟 Proyectos de Inspiración
+- [React Projects](https://github.com/topics/react-projects) - GitHub Topics
+- [Awesome React](https://github.com/enaqx/awesome-react) - Lista curada
+- [Frontend Mentor](https://www.frontendmentor.io/) - Desafíos de diseño
 
-### Comunidades
+### 👥 Comunidades
 - [r/reactjs](https://www.reddit.com/r/reactjs/) - Subreddit de React
-- [Reactiflux](https://www.reactiflux.com/) - Discord de React
+- [Reactiflux](https://www.reactiflux.com/) - Discord oficial
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/reactjs) - Q&A
 
 ---
 
-## 📖 Conceptos Aprendidos
+## 🎯 Progreso de Aprendizaje
 
-### 🔹 Fundamentos
-```jsx
-// Componente funcional básico
-function Saludo({ nombre }) {
-  return <h1>¡Hola, {nombre}!</h1>;
-}
+### ✅ Semana 1-2: Fundamentos
+- [x] Crear primer componente
+- [x] Entender JSX
+- [x] Pasar props entre componentes
+- [x] Composición de componentes
 
-// Props
-<Saludo nombre="Rubén" />
-```
+### ✅ Semana 3-4: Estado y Eventos
+- [x] Hook useState
+- [x] Manejo de eventos (onClick, onHover)
+- [x] Renderizado condicional
+- [x] Actualización de estado
 
-### 🔹 Hooks
-```jsx
-// useState - Manejo de estado
-const [contador, setContador] = useState(0);
+### ✅ Semana 5-6: Efectos y Ciclo de Vida
+- [x] Hook useEffect básico
+- [x] Event listeners (mousemove)
+- [x] Cleanup functions
+- [ ] Fetch de datos (en progreso)
 
-// useEffect - Side effects
-useEffect(() => {
-  document.title = `Contador: ${contador}`;
-}, [contador]);
-```
-
-### 🔹 Renderizado Condicional
-```jsx
-// Operador ternario
-{isLoggedIn ? <Dashboard /> : <Login />}
-
-// &&
-{showMessage && <Message />}
-```
-
-### 🔹 Listas
-```jsx
-// Map para renderizar listas
-{users.map(user => (
-  <UserCard key={user.id} user={user} />
-))}
-```
+### 🔄 Semana 7-8: Proyectos Prácticos
+- [x] Tic Tac Toe - Lógica de juego
+- [x] Mouse Follower - Interacción con DOM
+- [x] Monitor Solar - Dashboard (base)
+- [ ] Integración con API real
 
 ---
 
-## 🎓 Progreso de Aprendizaje
+## 💡 Lecciones Aprendidas
 
-### Semana 1-2: Fundamentos
-- ✅ Crear primer componente
-- ✅ Entender JSX
-- ✅ Pasar props
-- ✅ Composición de componentes
+### 🎯 **Proyecto: Tic Tac Toe**
+**Aprendí:**
+- Cómo manejar arrays como estado
+- Calcular ganador con lógica condicional
+- Inmutabilidad del estado (no modificar directamente)
+- Componentes controlados
 
-### Semana 3-4: Estado y Eventos
-- 🔄 useState hook
-- 🔄 Manejo de eventos
-- 📝 Formularios controlados
-
-### Semana 5-6: Ciclo de Vida
-- 📝 useEffect hook
-- 📝 Fetch de datos
-- 📝 Cleanup functions
-
-### Semana 7-8: Proyectos
-- 📝 Todo App
-- 📝 Weather App
-- 📝 Pokedex
-
-> 📊 **Actualizado:** Se irá actualizando conforme avance
+**Desafío:** Determinar el ganador con 8 combinaciones posibles
+**Solución:** Array de patrones ganadores y verificación con `.every()`
 
 ---
 
-## 🤔 Desafíos Encontrados
+### 🎯 **Proyecto: Mouse Follower**
+**Aprendí:**
+- useEffect con event listeners
+- Importancia del cleanup para evitar memory leaks
+- Actualización de estado en tiempo real
+- Posicionamiento absoluto con JS
 
-### 🔴 Problema 1: Re-renderizados innecesarios
-**Solución aprendida:** Uso de `React.memo()` y `useMemo()` para optimizar
-
-### 🔴 Problema 2: Manejo de estado asíncrono
-**Solución aprendida:** Uso correcto de `useEffect` con dependencias
-
-### 🔴 Problema 3: Props drilling
-**Solución aprendida:** Context API para compartir estado entre componentes
-
-> 💡 Esta sección documenta los retos que encuentro y cómo los resuelvo
+**Desafío:** El círculo quedaba "pegado" después de desmontar
+**Solución:** Return cleanup function en useEffect
 
 ---
 
-## 💡 Notas y Tips
+### 🎯 **Proyecto: Monitor Solar**
+**Aprendí:**
+- Estructurar proyecto con múltiples componentes
+- Pasar datos entre niveles (props drilling)
+- Organizar archivos CSS por componente
+- Crear componentes reutilizables
 
-### ✨ Mejores Prácticas Aprendidas
-
-1. **Componentes pequeños y reutilizables**
-   ```jsx
-   // ✅ BUENO
-   <Button onClick={handleClick}>Guardar</Button>
-   
-   // ❌ MALO
-   <button style={{...muchosCSSinline}} onClick={...}>...</button>
-   ```
-
-2. **Nombres descriptivos**
-   ```jsx
-   // ✅ BUENO
-   const [isLoading, setIsLoading] = useState(false);
-   
-   // ❌ MALO
-   const [flag, setFlag] = useState(false);
-   ```
-
-3. **Extraer lógica compleja**
-   ```jsx
-   // ✅ BUENO - Custom Hook
-   const useAuth = () => {
-     // lógica de autenticación
-   }
-   ```
-
-4. **Evitar mutaciones directas del estado**
-   ```jsx
-   // ✅ BUENO
-   setUsers([...users, newUser]);
-   
-   // ❌ MALO
-   users.push(newUser);
-   ```
+**Próximo desafío:** Integrar API real de paneles solares
 
 ---
 
@@ -305,32 +399,43 @@ useEffect(() => {
 
 ### Mi Setup de Desarrollo
 
-**VS Code Extensions:**
+**📦 VS Code Extensions:**
+```
 - ES7+ React/Redux/React-Native snippets
 - ESLint
-- Prettier
+- Prettier - Code formatter
 - Auto Rename Tag
-- Bracket Pair Colorizer
+- Bracket Pair Colorizer 2
+- Simple React Snippets
+- Import Cost
+```
 
-**Configuración de Prettier:**
+**⚙️ Snippets Personalizados:**
+```json
+{
+  "React Functional Component": {
+    "prefix": "rfc",
+    "body": [
+      "export function ${1:ComponentName}() {",
+      "  return (",
+      "    <div>",
+      "      $0",
+      "    </div>",
+      "  )",
+      "}"
+    ]
+  }
+}
+```
+
+**🎨 Prettier Config:**
 ```json
 {
   "semi": true,
   "singleQuote": true,
   "tabWidth": 2,
-  "trailingComma": "es5"
-}
-```
-
-**Scripts comunes:**
-```json
-{
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint src --ext js,jsx"
-  }
+  "trailingComma": "es5",
+  "printWidth": 80
 }
 ```
 
@@ -344,14 +449,109 @@ useEffect(() => {
 
 ---
 
-## 🎯 Objetivos 2025
+## 🗺️ Roadmap 2026-2027
 
-- [ ] Completar 10 proyectos de React
-- [ ] Dominar todos los hooks principales
-- [ ] Aprender TypeScript con React
-- [ ] Construir un proyecto full-stack (MERN)
-- [ ] Contribuir a un proyecto open source de React
-- [ ] Crear mi primer paquete npm
+### 🎯 Q1 2026 (Marzo - Mayo)
+- [x] Fundamentos de React
+- [x] Componentes y Props
+- [x] Estado con useState
+- [x] Efectos con useEffect
+- [ ] Custom Hooks
+- [ ] Context API
+
+### 🎯 Q2 2026 (Abril - Junio)
+- [ ] React Router (Navegación)
+- [ ] Fetch de APIs externas
+- [ ] Formularios avanzados
+- [ ] Proyecto: Weather App
+- [ ] Proyecto: Pokedex
+
+### 🎯 Q3 2026 (Julio - Septiembre)
+- [ ] Estado global (Context/Redux)
+- [ ] Testing con Vitest
+- [ ] Optimización de rendimiento
+- [ ] Proyecto: E-commerce
+
+### 🎯 Q4 2027 (Enero - Marzo)
+- [ ] TypeScript con React
+- [ ] Next.js (SSR/SSG)
+- [ ] Deployment (Vercel/Netlify)
+- [ ] Proyecto Full-Stack (MERN)
+
+---
+
+## 📋 Próximos Proyectos Planeados
+
+| # | Proyecto | Descripción | Conceptos | Prioridad |
+|---|----------|-------------|-----------|-----------|
+| 1 | **Weather App** | Consulta del clima con API | Fetch, useEffect, APIs | 🔴 Alta |
+| 2 | **Todo App Pro** | Lista de tareas con filtros | LocalStorage, Context | 🟡 Media |
+| 3 | **Pokedex** | Galería de pokémon con búsqueda | API, Routing, Paginación | 🟡 Media |
+| 4 | **Movie Database** | Buscador de películas (TMDb) | API, Debouncing, Cards | 🟢 Baja |
+| 5 | **E-commerce** | Tienda online con carrito | State Management, Router | 🟢 Baja |
+| 6 | **Blog Personal** | Blog con admin y auth | CRUD, Firebase, Auth | 🟢 Baja |
+
+---
+
+## 💡 Mejores Prácticas Aprendidas
+
+### ✅ Estructura de Componentes
+```jsx
+// ✅ BUENO - Componente pequeño y reutilizable
+function Button({ children, onClick, variant = 'primary' }) {
+  return (
+    <button className={`btn btn-${variant}`} onClick={onClick}>
+      {children}
+    </button>
+  );
+}
+
+// ❌ MALO - Todo en un solo componente gigante
+function App() {
+  // 300 líneas de código aquí...
+}
+```
+
+### ✅ Nombres Descriptivos
+```jsx
+// ✅ BUENO
+const [isLoading, setIsLoading] = useState(false);
+const [userProfile, setUserProfile] = useState(null);
+
+// ❌ MALO
+const [flag, setFlag] = useState(false);
+const [data, setData] = useState(null);
+```
+
+### ✅ Inmutabilidad del Estado
+```jsx
+// ✅ BUENO
+setUsers([...users, newUser]);
+setUsers(users.filter(u => u.id !== userId));
+
+// ❌ MALO
+users.push(newUser);  // ¡Mutación directa!
+users.splice(index, 1);
+```
+
+### ✅ Cleanup en useEffect
+```jsx
+// ✅ BUENO
+useEffect(() => {
+  const handleResize = () => console.log(window.innerWidth);
+  window.addEventListener('resize', handleResize);
+  
+  return () => {
+    window.removeEventListener('resize', handleResize);
+  };
+}, []);
+
+// ❌ MALO - Memory leak
+useEffect(() => {
+  window.addEventListener('resize', () => {});
+  // Sin cleanup
+}, []);
+```
 
 ---
 
@@ -360,11 +560,16 @@ useEffect(() => {
 Aunque este es principalmente un repositorio de aprendizaje personal, **las sugerencias son bienvenidas**:
 
 - 💡 Ideas de proyectos
-- 📚 Recursos útiles
+- 📚 Recursos útiles que conoces
 - 🐛 Correcciones de errores en el código
-- 💬 Feedback constructivo
+- 💬 Feedback constructivo sobre mi código
 
-Abre un **Issue** o envía un **Pull Request** si quieres colaborar.
+**Cómo contribuir:**
+1. Fork el proyecto
+2. Crea una rama (`git checkout -b sugerencia/mejora`)
+3. Commit tus cambios (`git commit -m 'Sugerencia: ...'`)
+4. Push a la rama (`git push origin sugerencia/mejora`)
+5. Abre un Pull Request
 
 ---
 
@@ -372,63 +577,93 @@ Abre un **Issue** o envía un **Pull Request** si quieres colaborar.
 
 **Rubén Juan**
 
-- GitHub: [@ruubeenn13](https://github.com/ruubeenn13)
-- Repositorio: [aprendiendo_react](https://github.com/ruubeenn13/aprendiendo_react)
+- 🐙 GitHub: [@ruubeenn13](https://github.com/ruubeenn13)
+- 📂 Repositorio: [aprendiendo_react](https://github.com/ruubeenn13/aprendiendo_react)
+- 💼 Android Project: [filmoteca-RubenJuan](https://github.com/ruubeenn13/filmoteca-RubenJuan)
 
 ---
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Siéntete libre de usar el código para aprender.
+Este proyecto está bajo la **Licencia MIT**. Siéntete libre de usar el código para aprender.
+
+```
+MIT License - Copyright (c) 2026 Rubén Juan
+```
 
 ---
 
 ## 🙏 Agradecimientos
 
-- A la comunidad de React por los recursos increíbles
-- A todos los creadores de contenido educativo
-- A los desarrolladores que comparten su conocimiento
+- 🎓 **[Midudev](https://midu.dev/)** - Por sus increíbles tutoriales de React en español
+- 📘 **[React Team](https://react.dev/)** - Por la nueva documentación oficial
+- 🌐 **Comunidad de Stack Overflow** - Por resolver mis dudas
+- 💙 **Todos los creadores de contenido** que comparten su conocimiento gratuitamente
 
 ---
 
-## 📝 Diario de Aprendizaje
+## 📝 Changelog
 
-### 🗓️ Enero 2025
+### 📅 **Marzo 2026**
 - ✅ Configuré mi primer proyecto con Vite
-- ✅ Creé mis primeros componentes
-- ✅ Aprendí sobre props y composición
+- ✅ Creé componente "Hola Mundo"
+- ✅ Completé proyecto Tic Tac Toe
+- ✅ Completé proyecto Mouse Follower
+- ✅ Inicié proyecto Monitor Solar
+- 🔄 Trabajando con useEffect y cleanup
+- 🔄 Practicando fetch de datos
+- 📝 Próximo: Integrar API real en Monitor Solar
 
-### 🗓️ Febrero 2025
-- 🔄 Trabajando con useState
-- 🔄 Practicando eventos en React
+### 📅 **Próximamente**
+- 📝 Próximo: Weather App con API
+- 📝 Próximo: Custom Hooks
 
-> Esta sección se actualizará mensualmente
+> Esta sección se actualiza mensualmente
 
 ---
 
-## 🚀 Siguiente Paso
+## 🎯 Estado Actual
 
-**Actualmente aprendiendo:** useState y manejo de eventos
+**📚 Actualmente aprendiendo:** useEffect y ciclo de vida de componentes
 
-**Próximo tema:** useEffect y ciclo de vida de componentes
+**🔨 Proyecto actual:** Monitor Solar (integrando API)
 
-**Proyecto actual:** Todo App con LocalStorage
+**📖 Próximo tema:** Custom Hooks y reutilización de lógica
+
+**🎯 Objetivo del mes:** Completar Weather App
+
+---
+
+## 🔗 Links Rápidos
+
+- 📂 [Ver proyectos de práctica](/pruebas/projects)
+- 🚀 [Ver proyectos reales](/proyectos)
+- 📚 [React Docs](https://react.dev/)
+- 🎓 [Recursos de aprendizaje](#-recursos-útiles)
 
 ---
 
 <div align="center">
 
-### ⭐ Si encuentras útil este repositorio, dale una estrella ⭐
+## 📈 Progreso General
 
-**"El viaje de mil millas comienza con un solo paso"**
+![Progreso](https://progress-bar.dev/30/?title=React%20Journey&width=500&color=61dafb)
+
+**Conceptos dominados:** 8/25 ⚛️
+
+**Proyectos completados:** 3/10 🚀
+
+**Horas de práctica:** ~40h ⏱️
 
 ---
 
-### 📈 Progreso General
+### ⭐ Si encuentras útil este repositorio, dale una estrella ⭐
 
-![Progreso](https://progress-bar.dev/25/?title=React%20Mastery&width=400&color=61dafb)
+**"La práctica constante es la clave del dominio"**
 
-**Última actualización:** Enero 2025
+---
+
+**Última actualización:** Marzo 2026
 
 [🔝 Volver arriba](#️-aprendiendo-react)
 
