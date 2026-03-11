@@ -449,9 +449,9 @@ npm run dev
 
 ---
 
-## 🗺️ Roadmap 2026-2027
+## 🗺️ Roadmap 2025
 
-### 🎯 Q1 2026 (Marzo - Mayo)
+### 🎯 Q1 2025 (Enero - Marzo)
 - [x] Fundamentos de React
 - [x] Componentes y Props
 - [x] Estado con useState
@@ -459,20 +459,20 @@ npm run dev
 - [ ] Custom Hooks
 - [ ] Context API
 
-### 🎯 Q2 2026 (Abril - Junio)
+### 🎯 Q2 2025 (Abril - Junio)
 - [ ] React Router (Navegación)
 - [ ] Fetch de APIs externas
 - [ ] Formularios avanzados
 - [ ] Proyecto: Weather App
 - [ ] Proyecto: Pokedex
 
-### 🎯 Q3 2026 (Julio - Septiembre)
+### 🎯 Q3 2025 (Julio - Septiembre)
 - [ ] Estado global (Context/Redux)
 - [ ] Testing con Vitest
 - [ ] Optimización de rendimiento
 - [ ] Proyecto: E-commerce
 
-### 🎯 Q4 2027 (Enero - Marzo)
+### 🎯 Q4 2025 (Octubre - Diciembre)
 - [ ] TypeScript con React
 - [ ] Next.js (SSR/SSG)
 - [ ] Deployment (Vercel/Netlify)
@@ -588,7 +588,7 @@ Aunque este es principalmente un repositorio de aprendizaje personal, **las suge
 Este proyecto está bajo la **Licencia MIT**. Siéntete libre de usar el código para aprender.
 
 ```
-MIT License - Copyright (c) 2026 Rubén Juan
+MIT License - Copyright (c) 2025 Rubén Juan
 ```
 
 ---
@@ -604,17 +604,19 @@ MIT License - Copyright (c) 2026 Rubén Juan
 
 ## 📝 Changelog
 
-### 📅 **Marzo 2026**
+### 📅 **Enero 2025**
 - ✅ Configuré mi primer proyecto con Vite
 - ✅ Creé componente "Hola Mundo"
 - ✅ Completé proyecto Tic Tac Toe
 - ✅ Completé proyecto Mouse Follower
 - ✅ Inicié proyecto Monitor Solar
+
+### 📅 **Febrero 2025**
 - 🔄 Trabajando con useEffect y cleanup
 - 🔄 Practicando fetch de datos
 - 📝 Próximo: Integrar API real en Monitor Solar
 
-### 📅 **Próximamente**
+### 📅 **Marzo 2025**
 - 📝 Próximo: Weather App con API
 - 📝 Próximo: Custom Hooks
 
@@ -647,13 +649,18 @@ MIT License - Copyright (c) 2026 Rubén Juan
 
 ## 📈 Progreso General
 
-![Progreso](https://progress-bar.dev/30/?title=React%20Journey&width=500&color=61dafb)
+### React Journey - 30% Completado
 
-**Conceptos dominados:** 8/25 ⚛️
+```
+████████░░░░░░░░░░░░░░░░░░░░ 30%
+```
 
-**Proyectos completados:** 3/10 🚀
-
-**Horas de práctica:** ~40h ⏱️
+| Métrica | Progreso |
+|---------|----------|
+| **Conceptos dominados** | 8/25 (32%) ⚛️ |
+| **Proyectos completados** | 3/10 (30%) 🚀 |
+| **Horas de práctica** | ~40h ⏱️ |
+| **Nivel actual** | Principiante+ 📚 |
 
 ---
 
@@ -663,7 +670,7 @@ MIT License - Copyright (c) 2026 Rubén Juan
 
 ---
 
-**Última actualización:** Marzo 2026
+**Última actualización:** Marzo 2025
 
 [🔝 Volver arriba](#️-aprendiendo-react)
 
