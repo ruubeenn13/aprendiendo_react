@@ -332,25 +332,25 @@ npm run dev
 
 ## 🎯 Progreso de Aprendizaje
 
-### ✅ Semana 1-2: Fundamentos
+### ✅ Marzo 2026 - Semana 1-2: Fundamentos
 - [x] Crear primer componente
 - [x] Entender JSX
 - [x] Pasar props entre componentes
 - [x] Composición de componentes
 
-### ✅ Semana 3-4: Estado y Eventos
+### ✅ Marzo 2026 - Semana 3-4: Estado y Eventos
 - [x] Hook useState
 - [x] Manejo de eventos (onClick, onHover)
 - [x] Renderizado condicional
 - [x] Actualización de estado
 
-### ✅ Semana 5-6: Efectos y Ciclo de Vida
+### 🔄 Marzo-Abril 2026: Efectos y Ciclo de Vida
 - [x] Hook useEffect básico
 - [x] Event listeners (mousemove)
 - [x] Cleanup functions
 - [ ] Fetch de datos (en progreso)
 
-### 🔄 Semana 7-8: Proyectos Prácticos
+### 📝 Abril-Mayo 2026: Proyectos Prácticos
 - [x] Tic Tac Toe - Lógica de juego
 - [x] Mouse Follower - Interacción con DOM
 - [x] Monitor Solar - Dashboard (base)
@@ -449,30 +449,30 @@ npm run dev
 
 ---
 
-## 🗺️ Roadmap 2025
+## 🗺️ Roadmap 2026
 
-### 🎯 Q1 2025 (Enero - Marzo)
-- [x] Fundamentos de React
-- [x] Componentes y Props
-- [x] Estado con useState
-- [x] Efectos con useEffect
-- [ ] Custom Hooks
-- [ ] Context API
+### 🎯 Q1 2026 (Marzo - Mayo) - EN PROGRESO
+- [x] Fundamentos de React ✅
+- [x] Componentes y Props ✅
+- [x] Estado con useState ✅
+- [x] Efectos con useEffect ✅
+- [ ] Custom Hooks 🔄
+- [ ] Context API 📝
 
-### 🎯 Q2 2025 (Abril - Junio)
+### 🎯 Q2 2026 (Junio - Agosto)
 - [ ] React Router (Navegación)
 - [ ] Fetch de APIs externas
 - [ ] Formularios avanzados
 - [ ] Proyecto: Weather App
 - [ ] Proyecto: Pokedex
 
-### 🎯 Q3 2025 (Julio - Septiembre)
+### 🎯 Q3 2026 (Septiembre - Noviembre)
 - [ ] Estado global (Context/Redux)
 - [ ] Testing con Vitest
 - [ ] Optimización de rendimiento
 - [ ] Proyecto: E-commerce
 
-### 🎯 Q4 2025 (Octubre - Diciembre)
+### 🎯 Q4 2026 (Diciembre - Febrero 2027)
 - [ ] TypeScript con React
 - [ ] Next.js (SSR/SSG)
 - [ ] Deployment (Vercel/Netlify)
@@ -588,7 +588,7 @@ Aunque este es principalmente un repositorio de aprendizaje personal, **las suge
 Este proyecto está bajo la **Licencia MIT**. Siéntete libre de usar el código para aprender.
 
 ```
-MIT License - Copyright (c) 2025 Rubén Juan
+MIT License - Copyright (c) 2026 Rubén Juan
 ```
 
 ---
@@ -604,27 +604,28 @@ MIT License - Copyright (c) 2025 Rubén Juan
 
 ## 📝 Changelog
 
-### 📅 **Enero 2025**
+### 📅 **Marzo 2026**
 - ✅ Configuré mi primer proyecto con Vite
 - ✅ Creé componente "Hola Mundo"
 - ✅ Completé proyecto Tic Tac Toe
 - ✅ Completé proyecto Mouse Follower
 - ✅ Inicié proyecto Monitor Solar
-
-### 📅 **Febrero 2025**
 - 🔄 Trabajando con useEffect y cleanup
 - 🔄 Practicando fetch de datos
-- 📝 Próximo: Integrar API real en Monitor Solar
 
-### 📅 **Marzo 2025**
+### 📅 **Abril 2026**
+- 📝 Próximo: Integrar API real en Monitor Solar
 - 📝 Próximo: Weather App con API
+
+### 📅 **Mayo 2026**
 - 📝 Próximo: Custom Hooks
+- 📝 Próximo: Context API
 
 > Esta sección se actualiza mensualmente
 
 ---
 
-## 🎯 Estado Actual
+## 🎯 Estado Actual - Marzo 2026
 
 **📚 Actualmente aprendiendo:** useEffect y ciclo de vida de componentes
 
@@ -632,7 +633,9 @@ MIT License - Copyright (c) 2025 Rubén Juan
 
 **📖 Próximo tema:** Custom Hooks y reutilización de lógica
 
-**🎯 Objetivo del mes:** Completar Weather App
+**🎯 Objetivo del mes (Abril 2026):** Completar Weather App con API real
+
+**⏱️ Tiempo dedicado hasta ahora:** ~40 horas de práctica
 
 ---
 
@@ -662,6 +665,38 @@ MIT License - Copyright (c) 2025 Rubén Juan
 | **Horas de práctica** | ~40h ⏱️ |
 | **Nivel actual** | Principiante+ 📚 |
 
+### Desglose por Áreas
+
+**Fundamentos de React**
+```
+████████████████████░ 95% ⚛️ Componentes, JSX, Props
+```
+
+**Hooks**
+```
+████████░░░░░░░░░░░░ 40% 🪝 useState, useEffect básico
+```
+
+**Routing & Navigation**
+```
+░░░░░░░░░░░░░░░░░░░░  0% 🧭 Pendiente
+```
+
+**Estado Global**
+```
+░░░░░░░░░░░░░░░░░░░░  0% 🌐 Context, Redux pendiente
+```
+
+**APIs & Fetch**
+```
+██░░░░░░░░░░░░░░░░░░ 10% 📡 En progreso
+```
+
+**Testing**
+```
+░░░░░░░░░░░░░░░░░░░░  0% 🧪 Pendiente
+```
+
 ---
 
 ### ⭐ Si encuentras útil este repositorio, dale una estrella ⭐
@@ -670,7 +705,7 @@ MIT License - Copyright (c) 2025 Rubén Juan
 
 ---
 
-**Última actualización:** Marzo 2025
+**Última actualización:** Marzo 2026
 
 [🔝 Volver arriba](#️-aprendiendo-react)
 
