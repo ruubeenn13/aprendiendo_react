@@ -1,0 +1,55 @@
+.meteorologia-wrapper {
+  padding: 8px 12px;
+  background-color: #fff;
+}
+
+.meteorologia-container {
+  background: linear-gradient(to right, #96c43e 0%, #7ab848 25%, #4a9a58 55%, #1e7060 78%, #0d4a52 100%);
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.meteorologia-content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.meteorologia-title {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  color: #1a3a4a;
+}
+
+.meteo-row {
+  display: flex;
+  align-items: baseline;
+}
+
+.meteo-label {
+  font-size: 13px;
+  color: #1a3a4a;
+  min-width: 140px;
+}
+
+.meteo-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a3a4a;
+}
+
+.meteorologia-icon {
+  display: flex;
+  align-items: center;
+  padding-right: 4px;
+}
+
+.weather-icon {
+  font-size: 48px;
+  line-height: 1;
+}
