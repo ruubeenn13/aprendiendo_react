@@ -1,6 +1,7 @@
 import React from "react";
 import instalacion from "../data/instalacion";
 import Meteorologia from "./Meteorologia";
+import TablaInstalaciones from "./TablaInstalaciones";
 import "./Dashboard.css";
 
 const Dashboard = () => {
@@ -16,6 +17,8 @@ const Dashboard = () => {
           temperatura={instalacion.meteorologia.temperatura}
           radiacion={instalacion.meteorologia.radiacion}
         />
+
+        <TablaInstalaciones />
       </div>
     </div>
   );
