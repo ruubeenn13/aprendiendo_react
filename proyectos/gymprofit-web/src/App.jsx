@@ -1,8 +1,13 @@
-function App() {
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 
+function App() {
   return (
-    <h1>Hola mundo</h1>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<div>GymProFit - En construcción</div>} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

@@ -1,0 +1,55 @@
+/* ===== FUENTES ===== */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap');
+
+/* ===== TEMA CLARO ===== */
+:root[data-theme="light"] {
+  --bg-primary: #f4f4f0;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #555555;
+  --accent: #e8330a;
+  --accent-hover: #c42a08;
+  --border: #e0e0d8;
+  --sidebar-bg: #1a1a1a;
+  --sidebar-text: #f4f4f0;
+  --sidebar-accent: #e8330a;
+  --shadow: 0 2px 12px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 32px rgba(0,0,0,0.14);
+}
+
+/* ===== TEMA OSCURO ===== */
+:root[data-theme="dark"] {
+  --bg-primary: #111111;
+  --bg-secondary: #1c1c1c;
+  --bg-card: #1c1c1c;
+  --text-primary: #f0f0ec;
+  --text-secondary: #999999;
+  --accent: #e8330a;
+  --accent-hover: #ff4d1f;
+  --border: #2a2a2a;
+  --sidebar-bg: #0a0a0a;
+  --sidebar-text: #f0f0ec;
+  --sidebar-accent: #e8330a;
+  --shadow: 0 2px 12px rgba(0,0,0,0.4);
+  --shadow-hover: 0 8px 32px rgba(0,0,0,0.6);
+}
+
+/* ===== RESET Y BASE ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 0.04em;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; font-family: inherit; }

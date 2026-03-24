@@ -1,0 +1,35 @@
+{
+  "nav": {
+    "dashboard": "Home",
+    "routines": "Routines",
+    "exercises": "Exercises",
+    "nutrition": "Nutrition",
+    "progress": "Progress",
+    "profile": "Profile",
+    "logout": "Logout"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?"
+  },
+  "dashboard": {
+    "welcome": "Welcome",
+    "todayWorkout": "Today's workout",
+    "weeklyProgress": "Weekly progress",
+    "calories": "Calories",
+    "workouts": "Workouts"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "loading": "Loading...",
+    "error": "Something went wrong"
+  }
+}
