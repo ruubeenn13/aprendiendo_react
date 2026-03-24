@@ -14,7 +14,11 @@
     "email": "Email",
     "password": "Password",
     "noAccount": "Don't have an account?",
-    "hasAccount": "Already have an account?"
+    "hasAccount": "Already have an account?",
+    "tagline": "Entrena. Registra. Evoluciona.",
+    "error": "Credenciales incorrectas",
+    "guest": "Enter as guest",
+    "guestLabel": "Guest"
   },
   "dashboard": {
     "welcome": "Welcome",
@@ -30,6 +34,7 @@
     "edit": "Edit",
     "add": "Add",
     "loading": "Loading...",
-    "error": "Something went wrong"
+    "error": "Something went wrong",
+    "or": "or"
   }
 }

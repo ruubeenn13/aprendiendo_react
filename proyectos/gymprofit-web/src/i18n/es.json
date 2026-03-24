@@ -14,7 +14,11 @@
     "email": "Correo electrónico",
     "password": "Contraseña",
     "noAccount": "¿No tienes cuenta?",
-    "hasAccount": "¿Ya tienes cuenta?"
+    "hasAccount": "¿Ya tienes cuenta?",
+    "tagline": "Entrena. Registra. Evoluciona.",
+    "error": "Credenciales incorrectas",
+    "guest": "Entrar como invitado",
+    "guestLabel": "Invitado"
   },
   "dashboard": {
     "welcome": "Bienvenido",
@@ -30,6 +34,7 @@
     "edit": "Editar",
     "add": "Añadir",
     "loading": "Cargando...",
-    "error": "Ha ocurrido un error"
+    "error": "Ha ocurrido un error",
+    "or": "o"
   }
 }
