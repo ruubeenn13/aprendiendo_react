@@ -15,17 +15,32 @@
     "password": "Password",
     "noAccount": "Don't have an account?",
     "hasAccount": "Already have an account?",
-    "tagline": "Entrena. Registra. Evoluciona.",
-    "error": "Credenciales incorrectas",
+    "tagline": "Train. Track. Evolve",
+    "error": "Invalid Credentials",
     "guest": "Enter as guest",
-    "guestLabel": "Guest"
+    "guestLabel": "Guest",
+    "name": "Name",
+    "confirmPassword": "Confirm password",
+    "passwordMismatch": "Passwords do not match",
+    "passwordShort": "Password must be at least 6 characters"
   },
   "dashboard": {
     "welcome": "Welcome",
     "todayWorkout": "Today's workout",
     "weeklyProgress": "Weekly progress",
     "calories": "Calories",
-    "workouts": "Workouts"
+    "workouts": "Workouts",
+    "startWorkout": "Start workout",
+    "logMeal": "Log meal",
+    "days": "days",
+    "streak": "Active streak",
+    "thisWeek": "This week",
+    "total": "total",
+    "weight": "Body weight",
+    "todayCalories": "Today's calories",
+    "ofGoal": "of goal",
+    "lastWorkout": "Last workout",
+    "nextRoutine": "Next routine"
   },
   "common": {
     "save": "Save",

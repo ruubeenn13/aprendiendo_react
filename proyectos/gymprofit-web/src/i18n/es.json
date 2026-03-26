@@ -18,14 +18,29 @@
     "tagline": "Entrena. Registra. Evoluciona.",
     "error": "Credenciales incorrectas",
     "guest": "Entrar como invitado",
-    "guestLabel": "Invitado"
+    "guestLabel": "Invitado",
+    "name": "Nombre",
+    "confirmPassword": "Confirmar contraseña",
+    "passwordMismatch": "Las contraseñas no coinciden",
+    "passwordShort": "La contraseña debe tener al menos 6 caracteres"
   },
   "dashboard": {
     "welcome": "Bienvenido",
     "todayWorkout": "Entrenamiento de hoy",
     "weeklyProgress": "Progreso semanal",
     "calories": "Calorías",
-    "workouts": "Entrenamientos"
+    "workouts": "Entrenamientos",
+    "startWorkout": "Iniciar entrenamiento",
+    "logMeal": "Registrar comida",
+    "days": "días",
+    "streak": "Racha activa",
+    "thisWeek": "Esta semana",
+    "total": "total",
+    "weight": "Peso corporal",
+    "todayCalories": "Calorías de hoy",
+    "ofGoal": "del objetivo",
+    "lastWorkout": "Último entrenamiento",
+    "nextRoutine": "Próxima rutina"
   },
   "common": {
     "save": "Guardar",

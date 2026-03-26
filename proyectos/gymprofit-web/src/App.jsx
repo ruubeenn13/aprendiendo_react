@@ -1,6 +1,8 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Login from './pages/Login';
 import Layout from './components/Layout';
+import Register from './pages/Register';
+import Dashboard  from './pages/Dashboard';
 
 const Placeholder = ({ name }) => (
   <div style={{ paddingTop: '2rem' }}>
@@ -15,7 +17,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/dashboard" element={<Layout><Placeholder name="DASHBOARD" /></Layout>} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/dashboard" element={<Layout><Dashboard /></Layout>} />
         <Route path="/rutinas" element={<Layout><Placeholder name="RUTINAS" /></Layout>} />
         <Route path="/ejercicios" element={<Layout><Placeholder name="EJERCICIOS" /></Layout>} />
         <Route path="/nutricion" element={<Layout><Placeholder name="NUTRICIÓN" /></Layout>} />
