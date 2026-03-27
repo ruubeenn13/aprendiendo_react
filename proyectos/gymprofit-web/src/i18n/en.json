@@ -40,7 +40,22 @@
     "todayCalories": "Today's calories",
     "ofGoal": "of goal",
     "lastWorkout": "Last workout",
-    "nextRoutine": "Next routine"
+    "nextRoutine": "Next routine",
+    "macros": "Today's macros",
+    "protein": "Protein",
+    "carbs": "Carbohydrates",
+    "fats": "Fats",
+    "weeklyActivity": "Weekly activity",
+    "water": "Water intake",
+    "glasses": "glasses",
+    "achievements": "Recent achievements",
+    "nextGoal": "Next goal",
+    "completed": "completed",
+    "weekCalendar": "This week",
+    "newRecord": "New personal record",
+    "vsPrevious": "vs previous",
+    "tipOfDay": "Tip of the day",
+    "notifications": "Notifications"
   },
   "common": {
     "save": "Save",

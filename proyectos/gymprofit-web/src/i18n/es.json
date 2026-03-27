@@ -40,7 +40,22 @@
     "todayCalories": "Calorías de hoy",
     "ofGoal": "del objetivo",
     "lastWorkout": "Último entrenamiento",
-    "nextRoutine": "Próxima rutina"
+    "nextRoutine": "Próxima rutina",
+    "macros": "Macronutrientes de hoy",
+    "protein": "Proteínas",
+    "carbs": "Carbohidratos",
+    "fats": "Grasas",
+    "weeklyActivity": "Actividad semanal",
+    "water": "Agua consumida",
+    "glasses": "vasos",
+    "achievements": "Logros recientes",
+    "nextGoal": "Próximo objetivo",
+    "completed": "completado",
+    "weekCalendar": "Esta semana",
+    "newRecord": "Nuevo récord personal",
+    "vsPrevious": "respecto al anterior",
+    "tipOfDay": "Tip del día",
+    "notifications": "Notificaciones"
   },
   "common": {
     "save": "Guardar",
